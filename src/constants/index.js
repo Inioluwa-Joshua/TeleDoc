@@ -182,20 +182,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dr. Mark",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Dr. Mark is a chief consultant in Eye care unit, He is MBBS Certified.",
     tags: [
       {
-        name: "react",
+        name: "E.M Certified",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Consultant",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Verified",
         color: "pink-text-gradient",
       },
     ],
@@ -203,20 +203,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Dr. Stella",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Dr. Stella is a chief consultant in Eye care unit, She is MBBS Certified.",
     tags: [
       {
-        name: "react",
+        name: "E.M Certified",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Consultant",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Verified",
         color: "pink-text-gradient",
       },
     ],
@@ -224,20 +224,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Dr. David",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Dr. David is a chief consultant in Eye care unit, He is MBBS Certified.",
     tags: [
       {
-        name: "nextjs",
+        name: "E.M Certified",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Resident Doctor",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Verified",
         color: "pink-text-gradient",
       },
     ],
