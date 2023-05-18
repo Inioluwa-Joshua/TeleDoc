@@ -3,8 +3,11 @@ import { motion } from "framer-motion";
 import { styles } from "../../styles";
 import Typical from "react-typical";
 import SearchBar from "./SearchBar";
+import { useState } from "react";
 
 const Hero = () => {
+  const [results, setResults] = useState([]);
+
   const elements = [
     `How can i help you?`,
     2000,
@@ -37,7 +40,7 @@ const Hero = () => {
             <Typical steps={elements} loop={1} />
           </p>
           <div className="my-[50px]">
-            <SearchBar />
+            <SearchBar setResults={setResults}/>
           </div>
         </div>
       </div>

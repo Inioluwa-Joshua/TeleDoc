@@ -49,7 +49,7 @@ const SearchBar = ({setResults}) => {
     
     // Update the results state
     setResults(searchResults);
-    // navigateTo("/search-results");
+    navigateTo("/search-results");
   };
   
   return (

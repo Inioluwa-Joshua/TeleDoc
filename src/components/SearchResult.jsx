@@ -5,8 +5,8 @@ const SearchResult = ({results}) => {
   return (
     <div>
       <ul>
-        {results.map((result, item) => {
-         return <li key={item}>{result}</li>;
+        {results.map((result) => {
+         return <li key={result.id}>{result.item.title}</li>;
         })}
       </ul>
     </div>
